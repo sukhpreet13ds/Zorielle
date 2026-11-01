@@ -11,9 +11,9 @@ export default function Footer() {
           <div className="footer-brand">
             <Link href="/" aria-label="Zorielle Hospitality">
               <Image
-                src="/assets/zorielle.png"
+                src="/assets/zorielle-logo.png"
                 alt="Zorielle Hospitality"
-                width={150}
+                width={200}
                 height={120}
                 className="h-10 w-auto object-contain"
               />

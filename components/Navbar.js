@@ -85,7 +85,7 @@ export default function Navbar() {
           <div className="nav-logo-center">
             <Link href="/" aria-label="Zorielle Hospitality Home">
               <Image
-                src="/assets/zorielle.png"
+                src="/assets/zorielle-logo.png"
                 alt="Zorielle Hospitality"
                 width={190}
                 height={55}
