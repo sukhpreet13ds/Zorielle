@@ -54,6 +54,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        
         <FloatingActions />
       </body>
     </html>

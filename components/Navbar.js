@@ -61,9 +61,13 @@ export default function Navbar() {
     { label: "Contact Us", href: "/contact-us" },
   ];
 
+  const isSolidNav =
+    isScrolled ||
+    (pathname && (pathname.startsWith("/privacy") || pathname.startsWith("/terms")));
+
   return (
     <>
-      <header className={`navbar-wrapper ${isScrolled ? "navbar-scrolled" : ""}`}>
+      <header className={`navbar-wrapper ${isSolidNav ? "navbar-scrolled" : ""}`}>
         <div className="navbar-container">
           {/* Desktop Left Side Links */}
           <nav className="nav-links-group nav-links-left">

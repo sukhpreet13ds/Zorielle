@@ -91,8 +91,16 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="footer-bottom">
-          <div>
-            &copy; 2026 Zorielle Hospitality. All rights reserved.
+          <div style={{ display: "flex", gap: "1.2rem", alignItems: "center", flexWrap: "wrap" }}>
+            <span>&copy; 2026 Zorielle Hospitality. All rights reserved.</span>
+            <span style={{ color: "var(--color-warm-grey-light)", opacity: 0.4 }}>|</span>
+            <Link href="/privacy-policy" className="footer-legal-link">
+              Privacy Policy
+            </Link>
+            <span style={{ color: "var(--color-warm-grey-light)", opacity: 0.4 }}>|</span>
+            <Link href="/terms-and-conditions" className="footer-legal-link">
+              Terms &amp; Conditions
+            </Link>
           </div>
           <div style={{ letterSpacing: "0.08em", fontSize: "0.8rem", color: "var(--color-warm-grey-light)" }}>
             WHERE VISION MEETS HOSPITALITY

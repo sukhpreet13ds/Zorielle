@@ -1020,6 +1020,17 @@ img {
   gap: 1rem;
 }
 
+.footer-legal-link {
+  color: var(--color-warm-grey-light);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-legal-link:hover {
+  color: var(--color-gold);
+}
+
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
   .nav-links-group {

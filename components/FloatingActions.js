@@ -7,7 +7,7 @@ export default function FloatingActions() {
     <aside className="floating-actions" aria-label="Quick Contact Actions">
       {/* Call Button (Shown Above WhatsApp) */}
       <a
-        href="tel:+919876543210"
+        href="tel:+917827617823"
         className="floating-btn floating-btn-call"
         aria-label="Call Zorielle Hospitality"
       >
@@ -17,7 +17,7 @@ export default function FloatingActions() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919876543210?text=Hello%20Zorielle%20Hospitality%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+        href="https://wa.me/917827617823?text=Hello%20Zorielle%20Hospitality%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
         target="_blank"
         rel="noopener noreferrer"
         className="floating-btn floating-btn-whatsapp"

@@ -329,7 +329,7 @@ export default function ContactPage() {
 
               <div style={{ marginTop: "2.2rem" }}>
                 <a
-                  href="https://wa.me/919876543210?text=Hello%20Zorielle%20Hospitality%2C%20I%20would%20like%20to%20enquire%20about%20a%20business%20partnership."
+                  href="https://wa.me/917827617823?text=Hello%20Zorielle%20Hospitality%2C%20I%20would%20like%20to%20enquire%20about%20a%20business%20partnership."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-dark"
