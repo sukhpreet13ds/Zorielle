@@ -26,7 +26,7 @@ export default function ContactPage() {
           style={{ backgroundImage: "url('/assets/slide1.jpg')" }}
         />
         <div className="page-header-overlay" />
-        <div className="page-header-content">
+        <div className="page-header-content reveal-up">
           <span className="hero-subtitle-tag">Get In Touch</span>
           <h1 className="hero-title" style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}>
             Let&apos;s Create Something Exceptional.
@@ -41,7 +41,7 @@ export default function ContactPage() {
       <section style={{ padding: "6rem 0", backgroundColor: "var(--color-ivory)" }}>
         <div className="container-lux">
           {/* Section Heading & Narrative */}
-          <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 4rem auto" }}>
+          <div className="reveal-up" style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 4rem auto" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -90,7 +90,7 @@ export default function ContactPage() {
           >
             {/* Direct Info Card (Dark Luxury Card) */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 background: "var(--color-black)",
                 color: "var(--color-ivory)",
@@ -249,7 +249,7 @@ export default function ContactPage() {
 
             {/* Key Areas of Collaboration Card */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 borderRadius: "12px",
                 padding: "3rem 2.5rem",
@@ -347,7 +347,7 @@ export default function ContactPage() {
       {/* Map at the end (as requested in content.txt) */}
       <section style={{ backgroundColor: "#ffffff", padding: "0 0 5rem 0" }}>
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "2rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -370,6 +370,7 @@ export default function ContactPage() {
           </div>
 
           <div
+            className="reveal-up"
             style={{
               position: "relative",
               width: "100%",

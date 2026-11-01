@@ -41,7 +41,7 @@ export default function AboutPage() {
           style={{ backgroundImage: "url('/assets/slide2.jpg')" }}
         />
         <div className="page-header-overlay" />
-        <div className="page-header-content">
+        <div className="page-header-content reveal-up">
           <span className="hero-subtitle-tag">About Zorielle</span>
           <h1 className="hero-title" style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}>
             Building the Future of Hospitality.
@@ -63,7 +63,7 @@ export default function AboutPage() {
               alignItems: "center",
             }}
           >
-            <div>
+            <div className="reveal-up">
               <span
                 style={{
                   fontSize: "0.8rem",
@@ -121,7 +121,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div style={{ position: "relative" }}>
+            <div className="reveal-up" style={{ position: "relative" }}>
               <div
                 style={{
                   position: "relative",
@@ -178,7 +178,7 @@ export default function AboutPage() {
           >
             {/* Vision */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 background: "var(--color-black)",
                 color: "var(--color-ivory)",
@@ -237,7 +237,7 @@ export default function AboutPage() {
 
             {/* Mission */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 background: "var(--color-ivory-warm)",
                 padding: "3.5rem 2.8rem",
@@ -287,7 +287,7 @@ export default function AboutPage() {
       {/* Core Values Section */}
       <section style={{ padding: "6rem 0", backgroundColor: "var(--color-ivory)" }}>
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -318,7 +318,7 @@ export default function AboutPage() {
             {coreValues.map((val, idx) => (
               <div
                 key={idx}
-                className="lux-card"
+                className="lux-card reveal-up"
                 style={{
                   padding: "2.4rem 2rem",
                   display: "flex",
@@ -374,7 +374,7 @@ export default function AboutPage() {
               gap: "1.5rem",
             }}
           >
-            <div style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
+            <div className="reveal-up" style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
               <Image
                 src="/assets/about2.png"
                 alt="Zorielle Quality Standards"
@@ -383,7 +383,7 @@ export default function AboutPage() {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
+            <div className="reveal-up" style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
               <Image
                 src="/assets/about3.png"
                 alt="Zorielle Architectural Vision"
@@ -392,7 +392,7 @@ export default function AboutPage() {
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <div style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
+            <div className="reveal-up" style={{ height: "320px", position: "relative", borderRadius: "8px", overflow: "hidden" }}>
               <Image
                 src="/assets/slide3.jpg"
                 alt="Zorielle Destinations"
@@ -415,7 +415,7 @@ export default function AboutPage() {
           position: "relative",
         }}
       >
-        <div className="container-narrow">
+        <div className="container-narrow reveal-up">
           <span
             style={{
               fontSize: "0.8rem",

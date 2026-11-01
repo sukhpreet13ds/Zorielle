@@ -35,7 +35,7 @@ export default function HomePage() {
 
       {/* Narrative Intro Section */}
       <section style={{ padding: "6rem 0", backgroundColor: "var(--color-ivory)" }}>
-        <div className="container-narrow" style={{ textAlign: "center" }}>
+        <div className="container-narrow reveal-up" style={{ textAlign: "center" }}>
           <span
             style={{
               fontSize: "0.8rem",
@@ -79,7 +79,7 @@ export default function HomePage() {
       {/* Three Principles Section with Images */}
       <section style={{ padding: "5rem 0 6rem 0", backgroundColor: "#ffffff" }}>
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "3.5rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -110,7 +110,7 @@ export default function HomePage() {
             {principles.map((item, idx) => (
               <div
                 key={idx}
-                className="lux-card"
+                className="lux-card reveal-up"
                 style={{
                   padding: "0",
                   overflow: "hidden",
@@ -195,7 +195,7 @@ export default function HomePage() {
       {/* Discover the Zorielle Difference - Owners & Developers vs Guests */}
       <section style={{ padding: "6rem 0", backgroundColor: "var(--color-ivory-warm)" }}>
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -231,7 +231,7 @@ export default function HomePage() {
           >
             {/* For Property Owners & Developers */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 background: "linear-gradient(145deg, #ffffff, #faf7f2)",
                 padding: "3.2rem 2.5rem",
@@ -287,7 +287,7 @@ export default function HomePage() {
 
             {/* For Guests & Travellers */}
             <div
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 background: "linear-gradient(145deg, #ffffff, #faf7f2)",
                 padding: "3.2rem 2.5rem",
@@ -362,7 +362,7 @@ export default function HomePage() {
             pointerEvents: "none",
           }}
         />
-        <div className="container-narrow" style={{ position: "relative", textAlign: "center" }}>
+        <div className="container-narrow reveal-up" style={{ position: "relative", textAlign: "center" }}>
           <div
             style={{
               width: "44px",

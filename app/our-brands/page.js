@@ -105,7 +105,7 @@ export default function BrandsPage() {
 
       {/* Intro Narrative */}
       <section style={{ padding: "5rem 0 3rem 0", backgroundColor: "var(--color-ivory)" }}>
-        <div className="container-narrow" style={{ textAlign: "center" }}>
+        <div className="container-narrow reveal-up" style={{ textAlign: "center" }}>
           <p
             style={{
               fontSize: "1.15rem",
@@ -124,6 +124,7 @@ export default function BrandsPage() {
           
           {/* Horizontal 3 Brand Logos Bar (above the 3 cards) */}
           <div
+            className="reveal-up"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
@@ -217,7 +218,7 @@ export default function BrandsPage() {
             <div
               key={brand.id}
               id={brand.id}
-              className="lux-card"
+              className="lux-card reveal-up"
               style={{
                 padding: "3.5rem 1rem",
                 display: "grid",
@@ -331,7 +332,7 @@ export default function BrandsPage() {
         }}
       >
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -373,7 +374,7 @@ export default function BrandsPage() {
             {beyondHotels.map((item, idx) => (
               <div
                 key={idx}
-                className="lux-card"
+                className="lux-card reveal-up"
                 style={{
                   padding: 0,
                   overflow: "hidden",
@@ -435,7 +436,7 @@ export default function BrandsPage() {
           textAlign: "center",
         }}
       >
-        <div className="container-narrow">
+        <div className="container-narrow reveal-up">
           <h2
             className="font-serif"
             style={{

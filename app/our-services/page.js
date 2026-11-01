@@ -146,7 +146,7 @@ export default function ServicesPage() {
 
       {/* Intro Narrative */}
       <section style={{ padding: "5rem 0 3rem 0", backgroundColor: "var(--color-ivory)" }}>
-        <div className="container-narrow" style={{ textAlign: "center" }}>
+        <div className="container-narrow reveal-up" style={{ textAlign: "center" }}>
           <p
             style={{
               fontSize: "1.15rem",
@@ -167,7 +167,7 @@ export default function ServicesPage() {
             return (
               <div
                 key={svc.id}
-                className="service-alternating-row"
+                className="service-alternating-row reveal-up"
               >
                 {/* Image Column */}
                 <div
@@ -290,7 +290,7 @@ export default function ServicesPage() {
         }}
       >
         <div className="container-lux">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+          <div className="reveal-up" style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span
               style={{
                 fontSize: "0.8rem",
@@ -332,7 +332,7 @@ export default function ServicesPage() {
             {partnershipModels.map((pm, idx) => (
               <div
                 key={idx}
-                className="lux-card"
+                className="lux-card reveal-up"
                 style={{
                   background: "var(--color-ivory-warm)",
                   border: "none",
@@ -386,7 +386,7 @@ export default function ServicesPage() {
           position: "relative",
         }}
       >
-        <div className="container-narrow">
+        <div className="container-narrow reveal-up">
           <span
             style={{
               fontSize: "0.8rem",

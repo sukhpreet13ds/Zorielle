@@ -26,6 +26,12 @@
 
   --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   --transition-fast: all 0.25s ease-out;
+  --animate-duration: 0.8s;
+}
+
+/* Scroll-triggered reveal state */
+.reveal-up-pending {
+  opacity: 0;
 }
 
 *, *::before, *::after {
@@ -623,13 +629,17 @@ img {
 @media (max-width: 900px) {
   .service-alternating-row {
     flex-direction: column !important;
-    padding: 1.5rem !important;
+    padding: 1.4rem 1.25rem !important;
     gap: 1.5rem !important;
   }
   .service-img-col {
     order: 1 !important;
     width: 100% !important;
-    height: 220px !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9.5 !important;
+    min-height: 200px !important;
+    max-height: 320px !important;
+    border-radius: 8px !important;
   }
   .service-content-col {
     order: 2 !important;
