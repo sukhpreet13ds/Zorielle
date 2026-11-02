@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArrowRightIcon } from "@/components/Icons";
 
 export const metadata = {
-  title: "About Us | Zorielle Hospitality",
+  title: "About Zorielle Hospitality | Our Story & Vision",
   description:
-    "Building the Future of Hospitality. Learn about Zorielle Hospitality's vision, mission, core values, and philosophy.",
+    "Discover Zorielle Hospitality's story, vision, and commitment to creating exceptional hospitality experiences through innovative hotel management and development.",
 };
 
 export default function AboutPage() {

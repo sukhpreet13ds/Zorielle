@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArrowRightIcon, CheckCircleIcon } from "@/components/Icons";
 
 export const metadata = {
-  title: "Our Services | Zorielle Hospitality",
+  title: "Hospitality Management Services | Zorielle Hotels",
   description:
-    "Integrated Hospitality Solutions from Vision to Value. Development, Hotel & Resort Management, Serviced Residences, and Asset Advisory.",
+    "Discover Zorielle's hospitality services, including hotel management, development, operations, and strategic solutions designed to create exceptional guest experiences.",
 };
 
 export default function ServicesPage() {

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArrowRightIcon } from "@/components/Icons";
 
 export const metadata = {
-  title: "Our Brands | Zorielle Hospitality",
+  title: "Our Hospitality Brands | Zorielle Hotels",
   description:
-    "Explore the brand portfolio of Zorielle Hospitality: Zorielle Ease, Zorielle Select, Zorielle Star, and Beyond Hotels.",
+    "Explore Zorielle's hospitality brands, each offering distinctive experiences in luxury stays, exceptional service, and memorable destinations.",
 };
 
 export default function BrandsPage() {

@@ -2,9 +2,9 @@ import Image from "next/image";
 import { MailIcon, GlobeIcon, MapPinIcon, ArrowRightIcon } from "@/components/Icons";
 
 export const metadata = {
-  title: "Contact Us | Zorielle Hospitality",
+  title: "Contact Zorielle Hospitality | Get in Touch",
   description:
-    "Let's Create Something Exceptional. Connect with Zorielle Hospitality for hotel development, management partnerships, and investment opportunities.",
+    "Get in touch with Zorielle Hospitality for hotel management, development, and partnership inquiries. Connect with our team to explore opportunities.",
 };
 
 export default function ContactPage() {

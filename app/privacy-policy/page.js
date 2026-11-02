@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Privacy Policy | Zorielle Hospitality",
   description:
-    "Read the Privacy Policy for Zorielle Hospitality. Learn how we handle, process, and safeguard your personal and business information.",
+    "Read Zorielle Hospitality's Privacy Policy to understand how we collect, use, protect, and manage your personal information when using our website.",
 };
 
 export default function PrivacyPolicyPage() {

@@ -3,6 +3,12 @@ import Link from "next/link";
 import HeroSlider from "@/components/HeroSlider";
 import { ArrowRightIcon, GlobeIcon, BuildingIcon, CheckCircleIcon } from "@/components/Icons";
 
+export const metadata = {
+  title: "Zorielle Hospitality | Hotel Management & Development",
+  description:
+    "Zorielle Hospitality specializes in hotel management, luxury hotel development, destination resorts, serviced residences, and wellness retreats.",
+};
+
 export default function HomePage() {
   const principles = [
     {

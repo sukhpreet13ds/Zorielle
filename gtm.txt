@@ -1,0 +1,10 @@
+Below is the Google tag for this container. Copy and paste it in the code of every page of your website, immediately after the <head> element. Don’t add more than one Google tag to each page.
+
+
+
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-M4NG5TLZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script> 

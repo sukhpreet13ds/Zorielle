@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Terms & Conditions | Zorielle Hospitality",
   description:
-    "Review the Terms & Conditions governing the use of the Zorielle Hospitality website, digital channels, and hospitality engagement.",
+    "Review Zorielle Hospitality's Terms and Conditions to understand the rules, guidelines, and policies governing the use of our website and services.",
 };
 
 export default function TermsAndConditionsPage() {
